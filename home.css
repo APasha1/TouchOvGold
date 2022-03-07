@@ -1,0 +1,110 @@
+nav {
+  margin-top: 20px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#HED {
+  text-align: left;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: black;
+  font-family: Soleil, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  border: 0;
+  border-bottom: 5px solid transparent;
+  color: #242424;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0;
+  white-space: nowrap;
+  margin-right: 150px;
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Nv {
+  text-decoration: none;
+  margin-left: 50px;
+  color: black;
+  font-family: Soleil, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  border: 0;
+  border-bottom: 5px solid transparent;
+  color: #242424;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: wrap;
+}
+.CT1 {
+  text-decoration: none;
+  color: black;
+  font-family: Soleil, sans-serif;
+  font-weight: 400;
+  color: #242424;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#H1C {
+  font-size: large;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#BT1 {
+  background-color: #242424;
+  color: #ffffff;
+  border-radius: 15px;
+  text-decoration: none;
+  font-family: Soleil, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1.5em 2em;
+  transition: all 0.2s;
+  border: 2px solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Nv:hover {
+  color: #4c4c4c;
+}
+
+#BT1:hover {
+  color: #eae9e9;
+  box-shadow: 0 1em 1em -0.4em #0000;
+  transform: translateY(-5px);
+  border-color: #ffd966;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+@media (min-width: 800px) {
+  nav {
+    color: purple;
+  }
+}
