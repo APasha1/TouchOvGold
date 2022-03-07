@@ -48,6 +48,11 @@ nav {
   display: flex;
   flex-wrap: wrap;
 }
+
+.ButtonCar {
+  text-decoration: none;
+}
+
 .CT1 {
   text-decoration: none;
   color: black;
@@ -63,13 +68,33 @@ nav {
   display: flex;
   flex-wrap: wrap;
 }
-
+#Cnt {
+  background-color: #7d887a;
+  text-decoration: none !important;
+}
 #H1C {
   font-size: large;
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
 }
+#Text_Cont {text-decoration: none;
+  padding-left: 100px;
+  padding-top: 100px;
+  font-family: Soleil, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  border: 0;
+  border-bottom: 5px solid transparent;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: wrap;}
+
 
 #BT1 {
   background-color: #242424;
