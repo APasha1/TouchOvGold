@@ -134,7 +134,6 @@ nav {
   text-transform: uppercase;
   white-space: nowrap;
   display: flex;
-  flex-wrap: wrap;
 }
 
 #Sub_Cont {
@@ -156,7 +155,6 @@ nav {
   display: flex;
   flex-wrap: wrap;
 }
-  flex-wrap: wrap;}
 #BT1 {
   background-color: #242424;
   color: #ffffff;
