@@ -5,6 +5,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
 }
+
 #HED {
   text-align: left;
   background-color: #ffffff;
@@ -48,7 +49,38 @@ nav {
   display: flex;
   flex-wrap: wrap;
 }
-
+#new-arrivals-header-02 {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color:black
+  font-family: Soleil, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  border: 0;
+  border-bottom: 5px solid transparent;
+  color: #242424;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0;
+  white-space: nowrap;
+  margin-right: 150px;
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.font-weight-bold {color: #242424;
+  font-family: Soleil, sans-serif;
+  text-decoration: underline;
+  font-weight: 700!important;
+  cursor: pointer;
+  font-size: .875rem;
+  text-align: left;
+  line-height: 1.5;
+}
+}
 .ButtonCar {
   text-decoration: none;
 }
@@ -84,7 +116,6 @@ nav {
 
 .CT1 {
   text-decoration: none;
-  color: black;
   font-family: Soleil, sans-serif;
   font-weight: 400;
   color: #242424;
@@ -103,24 +134,35 @@ nav {
 .para {
   padding-left: 25px;
 }
-.text-colored {
-  color: #f0efed;
-}
+
 .featurette-heading { padding-left: 25px;}
 .para {padding-left: 25px;}
 .text-colored { color: #f0efed;}
 #Cnt {
-  background-color: #7d887a;
-  text-decoration: none !important;
+  background-color: #f3f1ed;
+  font-family: Soleil, sans-serif;
+  font-weight: 600;
+  border: 0;
+  border-bottom: 5px solid transparent;
+  font-size: 1.1rem;
+  letter-spacing: 0.9px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
 }
+.text-cnt {   text-decoration: none !important;
+  font-size: 1.5rem;
+  font-family: Soleil, sans-serif;
+  font-weight: 600;}
+ 
 #H1C {
   font-size: large;
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
+  letter-spacing: 0.9px;
 }
-#Text_Cont {
-  text-decoration: none;
 #Text_Cont {text-decoration: none;
   align-items: center;
   padding-top: 100px;
@@ -155,37 +197,25 @@ nav {
   display: flex;
   flex-wrap: wrap;
 }
-#BT1 {
-  background-color: #242424;
-  color: #ffffff;
-  border-radius: 15px;
-  text-decoration: none;
-  font-family: Soleil, sans-serif;
-  font-weight: 400;
-  font-size: 0.875rem;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 1.5em 2em;
-  transition: all 0.2s;
-  border: 2px solid;
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .Nv:hover {
   color: #4c4c4c;
 }
-
-#BT1:hover {
-  color: #eae9e9;
-  box-shadow: 0 1em 1em -0.4em #0000;
-  transform: translateY(-5px);
-  border-color: #ffd966;
-  border: 1px solid;
-  cursor: pointer;
+.font-weight-bold:hover {
+  color: #101010;
 }
+.b-example-divider {
+  height: 3rem;
+  background-color: #f3f1ed;
+  border: solid #f3f1ed;
+  border-width: 1px 0;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
 
 @media (min-width: 800px) {
   nav {
