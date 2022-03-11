@@ -1,6 +1,6 @@
 body {
-  background-image: url("unsplash.png");
-  background-size: 650px 750px;
+  background-image: url("unsplash2.png");
+  background-size: 750px 850px;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
@@ -9,7 +9,8 @@ body {
   padding-left: 600px;
   height: 100%;
 }
-
+.cnt {
+  padding-left: 50px;}
 #hed {
   background-color: #fff;
   text-decoration: none;
