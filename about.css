@@ -144,7 +144,7 @@ nav {
     text-transform: uppercase;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 5px;
+    padding-top: 25px;
   }
   
   .text-cnth {
@@ -193,9 +193,15 @@ nav {
 
   
   #parallax {
-  padding-top: 100px;
+    border-radius: 45px;
+    transition: 0.5s padding ease-out, 0.5s border-radius ease-out, 0.25s transform ease-out;
   }
   
+  #parallax:hover {
+           padding: 25px;
+           border-radius: 50px;
+           transform: translate(0, -30px);
+  }
   
   .font-weight-bold:hover {
     color: #101010;

@@ -1,2 +1,159 @@
 /* stylelint-disable-next-line no-missing-end-of-source-newline */
-h1 { color: white; }
+body {
+    background-image: url("unsplash.png");
+    background-size: 650px 750px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 600px;
+    height: 100%;
+  }
+  
+  #hed {
+    background-color: #fff;
+    text-decoration: none;
+    font-family: Soleil, sans-serif;
+    line-height: 1.5;
+    border: 0;
+    border-bottom: 5px solid transparent;
+    color: #242424;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 0;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+  }
+  
+  .font {
+    background-color: #fff;
+    text-decoration: none;
+    font-family: Soleil, sans-serif;
+    line-height: 1.5;
+    border: 0;
+    border-bottom: 5px solid transparent;
+    color: #242424;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 0;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .forminput {
+    font-family: Soleil, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 0;
+    border-bottom: 5px solid transparent;
+    color: #242424;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .checkbox {
+    font-family: Soleil, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 0;
+    border-bottom: 5px solid transparent;
+    color: #242424;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    white-space: nowrap;
+    flex-wrap: wrap;
+  }
+  
+  #anchor {
+    font-family: Soleil, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 0;
+    border-bottom: 5px solid transparent;
+    color: #242424;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    padding-top: 25px;
+  }
+  
+  #anchor1 {
+    font-family: Soleil, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 0;
+    border-bottom: 5px solid transparent;
+    color: #242424;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    padding-top: 5px;
+  }
+  
+  .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .space {
+    padding-top: 5px;
+  }
+  
+  #textcheck {
+    font-size: 10px;
+  }
+  
+  .hoverbutton {
+    border-radius: 15px;
+    width: 300px;
+    height: 40px;
+    border-color: grey;
+    transition: 0.5s border-color ease-out, 0.5s color ease-out, 0.5s border-radius ease-out, 0.8s font-size ease-out;
+  }
+  
+  .hoverbutton:hover {
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border-color: white;
+    font-size: 15px;
+  }
+  

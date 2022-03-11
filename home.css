@@ -44,6 +44,24 @@ nav {
   white-space: nowrap;
   display: flex;
   flex-wrap: wrap;
+  transition:  0.5s color ease-out, 0.25s transform ease-out;
+}
+.nv2 {
+  text-decoration: none;
+  margin-left: 50px;
+  font-family: Soleil, sans-serif;
+  line-height: 1.5;
+  border: 0;
+  border-bottom: 5px solid transparent;
+  color: #242424;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 0;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .nv1 {
@@ -150,6 +168,13 @@ nav {
 
 .nv:hover {
   color: #4c4c4c;
+  transform: translate(0, -1px);
+}
+.nv1:hover {
+  color: #4c4c4c;
+}
+.nv2:hover { 
+  color: #242424;
 }
 
 #parallax {
