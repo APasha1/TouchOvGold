@@ -2,17 +2,18 @@ body {
   background-image: url("unsplash.png");
   background-size: 650px 750px;
   background-repeat: no-repeat;
-}
-html,
-body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 600px;
   height: 100%;
 }
-#HED {
-  background-color: #ffffff;
+
+#hed {
+  background-color: #fff;
   text-decoration: none;
-  color: black;
   font-family: Soleil, sans-serif;
-  font-weight: 400;
   line-height: 1.5;
   border: 0;
   border-bottom: 5px solid transparent;
@@ -20,7 +21,6 @@ body {
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 0.5px;
-  text-decoration: none;
   text-transform: uppercase;
   padding: 0;
   white-space: nowrap;
@@ -28,12 +28,11 @@ body {
   flex-wrap: wrap;
   padding-left: 30px;
 }
+
 .font {
-  background-color: #ffffff;
+  background-color: #fff;
   text-decoration: none;
-  color: black;
   font-family: Soleil, sans-serif;
-  font-weight: 400;
   line-height: 1.5;
   border: 0;
   border-bottom: 5px solid transparent;
@@ -41,21 +40,13 @@ body {
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.5px;
-  text-decoration: none;
   padding: 0;
   white-space: nowrap;
   display: flex;
   flex-wrap: wrap;
 }
-body {
-  display: flex;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 600px;
-}
+
 .forminput {
-  color: black;
   font-family: Soleil, sans-serif;
   font-weight: 400;
   line-height: 1.5;
@@ -69,8 +60,8 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+
 .checkbox {
-  color: black;
   font-family: Soleil, sans-serif;
   font-weight: 400;
   line-height: 1.5;
@@ -83,8 +74,8 @@ body {
   white-space: nowrap;
   flex-wrap: wrap;
 }
+
 #anchor {
-  color: black;
   font-family: Soleil, sans-serif;
   font-weight: 400;
   line-height: 1.5;
@@ -100,6 +91,24 @@ body {
   padding-left: 80px;
   padding-top: 25px;
 }
+
+#anchor1 {
+  font-family: Soleil, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  border: 0;
+  border-bottom: 5px solid transparent;
+  color: #242424;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 80px;
+  padding-top: 5px;
+}
+
 .form-signin {
   width: 100%;
   max-width: 330px;
@@ -122,15 +131,27 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
 .space {
   padding-top: 5px;
 }
+
 #textcheck {
   font-size: 10px;
 }
-.hoverbutton {border-radius: 25px;
-    transition: 0.15s padding ease-out, 0.15s margin ease-out, 0.15s border ease-out;}}
+
+.hoverbutton {
+  border-radius: 15px;
+  width: 300px;
+  height: 40px;
+  border-color: grey;
+}
+
 .hoverbutton:hover {
-  margin-bottom: 5px;
-  border-radius: 25px;
+  border-radius: 20px;
+  transition: 0.5s border-color ease-out, 0.5s color ease-out, 0.5s border-radius ease-out, 0.8s font-size ease-out;
+  background-color: blue;
+  color: white;
+  border-color: white;
+  font-size: 15px;
 }
