@@ -145,11 +145,11 @@ body {
   width: 300px;
   height: 40px;
   border-color: grey;
+  transition: 0.5s border-color ease-out, 0.5s color ease-out, 0.5s border-radius ease-out, 0.8s font-size ease-out;
 }
 
 .hoverbutton:hover {
   border-radius: 20px;
-  transition: 0.5s border-color ease-out, 0.5s color ease-out, 0.5s border-radius ease-out, 0.8s font-size ease-out;
   background-color: blue;
   color: white;
   border-color: white;
