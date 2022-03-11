@@ -201,6 +201,13 @@ nav {
 .Nv:hover {
   color: #4c4c4c;
 }
+#parallax { border-radius: 25px;
+  transition: 0.15s padding ease-out, 0.15s margin ease-out, 0.15s border ease-out;}
+#parallax:hover {
+         padding: 25px;
+         border-radius: 50px;
+         
+        }
 .font-weight-bold:hover {
   color: #101010;
 }
