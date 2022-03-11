@@ -128,7 +128,7 @@ body {
 #textcheck {
   font-size: 10px;
 }
-.hoverbutton {border-radius: 5px;
+.hoverbutton {border-radius: 25px;
     transition: 0.15s padding ease-out, 0.15s margin ease-out, 0.15s border ease-out;}}
 .hoverbutton:hover {
   margin-bottom: 5px;
