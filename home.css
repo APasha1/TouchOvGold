@@ -154,7 +154,7 @@ nav {
 
 #parallax {
   border-radius: 25px;
-  transition: 0.5s padding ease-out, 0.5s border-radius ease-out;
+  transition: 0.5s padding ease-out, 0.5s border-radi ease-out;
 }
 
 #parallax:hover {
