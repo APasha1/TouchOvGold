@@ -51,6 +51,8 @@ nav {
     display: flex;
     flex-wrap: wrap;
     transition:  0.5s color ease-out, 0.25s transform ease-out;
+    display: inline-block;
+    position: relative;
   }
   .nv2 {
     text-decoration: none;
@@ -190,7 +192,22 @@ nav {
       transform: translate(0, -2px);
   }
   
-
+  .nv:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .nv:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
   
   #parallax {
   padding-top: 100px;
